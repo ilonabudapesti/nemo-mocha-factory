@@ -30,6 +30,6 @@
     "grunt-contrib-jshint": "~0.7.1"
   },
   "peerDependencies": {
-    "nemo": "git://github.com/paypal/nemo.git#master"
+    "nemo": "git+ssh://git@github.com:paypal/nemo.git"
   }
 }
