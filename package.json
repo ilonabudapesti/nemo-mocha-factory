@@ -1,0 +1,35 @@
+{
+  "name": "nemo-mocha-factory",
+  "version": "0.3.0-beta",
+  "description": "Mocha before/after functions for putting nemo into the global namespace",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.paypal.com:NodeTestTools/nemo-mocha-factory.git"
+  },
+  "keywords": [
+    "Nemo",
+    "Mocha",
+    "NodeJS",
+    "Selenium",
+    "Automation"
+  ],
+  "author": "Matt Edelman",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^2.4.0"
+  },
+  "devDependencies": {
+    "mocha": "~1.10.0",
+    "chai": "~1.6.0",
+    "grunt": "~0.4.1",
+    "grunt-simple-mocha": "~0.4.0",
+    "grunt-contrib-jshint": "~0.7.1"
+  },
+  "peerDependencies": {
+    "nemo": "^0.6.0-beta"
+  }
+}
