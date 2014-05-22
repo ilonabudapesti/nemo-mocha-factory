@@ -30,6 +30,6 @@
     "grunt-contrib-jshint": "~0.7.1"
   },
   "peerDependencies": {
-    "nemo": "*"
+    "nemo": "^0.1.0"
   }
 }
