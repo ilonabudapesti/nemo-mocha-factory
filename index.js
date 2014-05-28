@@ -12,7 +12,7 @@
 │   See the License for the specific language governing permissions and       │
 │   limitations under the License.                                            │
 \*───────────────────────────────────────────────────────────────────────────*/
-/*global nemo:true, before:true, after:true */
+/*global before:true, after:true */
 'use strict';
 var Nemo = require('nemo'),
 	_ = require("lodash"),
