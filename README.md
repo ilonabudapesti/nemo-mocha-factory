@@ -2,6 +2,8 @@
 
 Mocha before/after functions for putting nemo into the global namespace
 
+[![Build Status](https://travis-ci.org/paypal/nemo-mocha-factory.svg?branch=master)](https://travis-ci.org/paypal/nemo-mocha-factory)
+
 ### Usage
 
 ```javascript

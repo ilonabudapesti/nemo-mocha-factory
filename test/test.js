@@ -20,7 +20,7 @@ before(function(done) {
 });
 describe('@nemoFactory@', function() {
 	//var nemo;
-	nemoFactory({context: global});
+	nemoFactory({context: global, setup: {}});
 	it('should create a global nemo object', function(done) {
 		assert(nemo && nemo.driver && nemo.wd, "There was some problem getting a global nemo object");
 		done();
